@@ -6,5 +6,6 @@ app.use(express.json());
 
 // routes
 app.use("/", tourRouter);
+
 // export app
 module.exports = app;
